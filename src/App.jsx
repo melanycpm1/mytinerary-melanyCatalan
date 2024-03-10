@@ -3,11 +3,13 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'*/
 import './App.css'
 import Header from './components/header'
+import MainHome from './components/main-home'
 
 function App() {
   return (
     <>
-      
+      <Header></Header>
+      <MainHome></MainHome>
     </>
   )
 }
