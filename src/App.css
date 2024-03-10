@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(122, 187, 193);
+}
+.h-1200{
+    height: 1200px;
+}
