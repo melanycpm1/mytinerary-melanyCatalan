@@ -18,11 +18,11 @@ function App() {
           <Route path='/cities' element={<Cities/>} />
           <Route path='/login' element={<Login/>}/>
         </Routes>
+        
+        <Header></Header>
+        <MainHome></MainHome>
+        <Footer></Footer>
       </BrowserRouter>
-
-      <Header></Header>
-      <MainHome></MainHome>
-      <Footer></Footer>
     </>
   )
 }
